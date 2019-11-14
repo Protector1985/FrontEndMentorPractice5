@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  color: #333;
 }
 
 ul li {
@@ -19,7 +20,15 @@ ul a {
   color: #333;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+}
 
+.flex {
+  text-align: center;
+}
 
 .main-header,
 .main-nav {
@@ -39,5 +48,16 @@ ul a {
 .main-nav {
   width: 48%;
   margin-right: 4%;
+}
 
+.picture-container .picture {
+  width: 70%;
+}
+
+.signup {
+  text-align: center;
+}
+#email {
+  display: block;
+  margin: auto;
 }
