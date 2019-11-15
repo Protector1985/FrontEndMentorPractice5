@@ -5,6 +5,10 @@
 body {
   font-family: 'Raleway', sans-serif;
   color: #333;
+
+  padding: 0;
+  margin:0;
+
 }
 
 ul li {
@@ -64,11 +68,30 @@ ul a {
   display: inline-block;
   border-radius: 5px;
   padding: 10px 79px;
+  margin-bottom: 150px;
 }
 
 .signup {
   text-align: center;
 }
+
+
+.bg-curve {
+  text-align: center;
+  margin-bottom: -1%;
+}
+
+#curve-mobile {
+  width: 100%;
+  fill: blue;
+}
+
+.team{
+  background-color: #f9f8fe;
+  position: relative;
+
+}
+
 #email {
   display: block;
   margin: auto;
