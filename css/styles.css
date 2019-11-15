@@ -11,6 +11,17 @@ body {
 
 }
 
+p {
+  margin-left:4%;
+  margin-right: 4%;
+  line-height: 1.5em;
+}
+
+h2, h3 {
+  margin-left:4%;
+  margin-right:4%;
+}
+
 ul li {
   list-style: none;
 
@@ -47,13 +58,19 @@ ul a {
   align-self: center;
   width: 25%;
   margin-left: 4%;
+  margin-top: 3%;
+  margin-bottom: 80px;
 }
 
 .main-nav {
   width: 48%;
   margin-right: 4%;
+
 }
 
+.picture-container {
+  margin-bottom: 70px;
+}
 .picture-container .picture {
   width: 70%;
 }
@@ -75,6 +92,9 @@ ul a {
   text-align: center;
 }
 
+.top-container {
+  margin-bottom: -23%;
+}
 
 .bg-curve {
   text-align: center;
@@ -106,7 +126,7 @@ ul a {
   box-shadow: 0 0 20px #DCDCDC;
   text-align: left;
   padding: 5%;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 #email {
@@ -152,6 +172,26 @@ ul a {
   width: 35px;
 }
 
-.quotes {
+.how-works {
+  position: relative;
+  text-decoration: none;
+  color: #33CC00;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #33CC00;
 
+}
+
+.arrow {
+  position: absolute;
+  width:20px;
+}
+
+.paragraph {
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.par2 {
+  margin-bottom: 10%;
 }
