@@ -88,8 +88,25 @@ ul a {
 
 .team{
   background-color: #f9f8fe;
-  position: relative;
+}
 
+.middle-container {
+  background-color: #f9f8fe;
+  padding-bottom: 10%;
+
+}
+
+.testimonial {
+  position: relative;
+  width:60%;
+  height: 35%;
+  font-size: 0.8em;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 20px #DCDCDC;
+  text-align: left;
+  padding: 5%;
+  margin-top: 5%;
 }
 
 #email {
@@ -104,4 +121,37 @@ ul a {
   margin-bottom: 10px;
   margin-top: 50px;
   padding-left: 10px;
+}
+
+.signature {
+  position: relative;
+  margin-bottom: 0;
+  font-weight: bold;
+  left: 47px;
+  margin-top: 14px;
+}
+
+.signature2 {
+  position: relative;
+  margin-top: 5px;
+  font-size: 0.6em;
+  left: 47px;
+}
+
+.statement {
+  line-height: 1.7em;
+  font-weight:400;
+  color: black;
+  margin-top: 4px;
+}
+
+.testimonial-picture {
+  position: absolute;
+  display:inline-block;
+  border-radius: 50%;
+  width: 35px;
+}
+
+.quotes {
+
 }
