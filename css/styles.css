@@ -62,6 +62,11 @@ ul a {
   margin-bottom: 80px;
 }
 
+.footer-container .logo-bottom {
+  fill: white!important;
+  margin-top: 7%;
+}
+
 .main-nav {
   width: 48%;
   margin-right: 4%;
@@ -85,15 +90,11 @@ ul a {
   display: inline-block;
   border-radius: 5px;
   padding: 10px 79px;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 .signup {
   text-align: center;
-}
-
-.top-container {
-  margin-bottom: -23%;
 }
 
 .bg-curve {
@@ -194,4 +195,14 @@ ul a {
 
 .par2 {
   margin-bottom: 10%;
+}
+
+.cta-container {
+  background-color: #575989;
+  color: white;
+}
+
+.footer-container {
+  	background-color: #07043b;
+    color: white;
 }
