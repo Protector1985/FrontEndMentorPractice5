@@ -383,4 +383,24 @@ ul a {
     width: 400px;
   }
 
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer-container,
+  .bottom-ul,
+  .logo {
+    flex-grow: 1;
+  }
+
+  .footer-container .logo-bottom {
+    margin-top: 3%;
+  }
+
+  .ul,
+  .bottom-ul {
+    margin-top: 9%;
+  }
 }
