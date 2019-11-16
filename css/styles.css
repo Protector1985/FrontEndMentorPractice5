@@ -20,6 +20,7 @@ p {
 h2, h3 {
   margin-left:4%;
   margin-right:4%;
+  text-align: center;
 }
 
 ul li {
@@ -45,6 +46,7 @@ ul a {
   text-align: center;
 }
 
+
 .main-header,
 .main-nav {
   display:flex;
@@ -60,11 +62,6 @@ ul a {
   margin-left: 4%;
   margin-top: 3%;
   margin-bottom: 80px;
-}
-
-.footer-container .logo-bottom {
-  fill: white!important;
-  margin-top: 7%;
 }
 
 .main-nav {
@@ -89,7 +86,7 @@ ul a {
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
-  padding: 10px 79px;
+  padding: 10px 102px;
   margin-bottom: 75px;
 }
 
@@ -104,7 +101,6 @@ ul a {
 
 #curve-mobile {
   width: 100%;
-  fill: blue;
 }
 
 .team{
@@ -137,7 +133,7 @@ ul a {
   font-size: 1em;
   border: 1px solid #333;
   border-radius: 5px;
-  width: 250px;
+  width: 300px;
   height: 40px;
   margin-bottom: 10px;
   margin-top: 50px;
@@ -179,6 +175,7 @@ ul a {
   color: #33CC00;
   padding-bottom: 6px;
   border-bottom: 1px solid #33CC00;
+  text-align: center;
 
 }
 
@@ -203,6 +200,27 @@ ul a {
 }
 
 .footer-container {
-  	background-color: #07043b;
+    position: relative;
+    background-color: #07043b;
     color: white;
+
+}
+
+.footer-container .logo-bottom {
+  position: absolute;
+  margin-top: 7%;
+  left: 35px;
+}
+
+.bottom-ul {
+  text-align: left;
+  line-height: 2em;
+}
+
+.ul {
+  margin-top: 150px;
+}
+
+.contact-icon {
+  margin-right: 25px;
 }
