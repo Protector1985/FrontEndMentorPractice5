@@ -247,10 +247,13 @@ ul a {
   }
 
   .main-nav li {
-    margin-left: 10%;
+    margin-right: 10%;
     align-self: center;
   }
 
+  .main-header {
+    margin-bottom: 3%;
+  }
 
   .main-header .logo {
     width: 10%;
@@ -300,6 +303,24 @@ ul a {
     background-color:#f9f8fe;
   }
 
+  #email {
+    margin-left: 4%;
+  }
+  .btn{
+    display: block;
+    margin-left: 4%;
+  }
+
+  .how-works {
+    left:-35%;
+  }
+
+  .testimonial {
+    left: -21%;
+    top:-8%;
+    width: 40%;
+    height: 30%
+  }
   .flex-container .main-header {order:0;}
   .flex-container .top-container {order:1;}
   .flex-container .picture1 {order:2;}
