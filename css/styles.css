@@ -47,12 +47,17 @@ ul a {
 }
 
 
-.main-header,
-.main-nav {
+.main-header {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 1;
+}
+
+.main-nav {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
 }
 
 
@@ -102,11 +107,6 @@ ul a {
 .wave1 {
   width:100%;
 }
-
-.wave2 {
-  display:none;
-}
-
 
 #curve-mobile {
   width: 100%;
@@ -236,10 +236,29 @@ ul a {
 
 @media (min-width: 768px) {
 
-    .wrapper {
+  h2,h3,p {
+    text-align: left;
+  }
 
-    }
+  .main-nav {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+  }
 
+  .main-nav li {
+    margin-left: 10%;
+    align-self: center;
+  }
+
+
+  .main-header .logo {
+    width: 10%;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2%;
+  }
 
   .flex-container {
     display: flex;
@@ -259,23 +278,36 @@ ul a {
     display:none;
   }
 
-  .wave2 {
-    display:block;
-  }
-
   .picture-container,
   .top-container,
-  .middle-container {
+  .middle-container,
+  .team {
     width: 50%;
-    align-self: space-between;
+
   }
   .picture-container {
     background-image: none;
     margin-bottom: 0;
   }
 
+  .bg-curve:after {
+    content: url("../images/bg-curve-desktop.svg");
+  }
+
+
   .team,
   .middle-container {
     background-color:#f9f8fe;
   }
+
+  .flex-container .main-header {order:0;}
+  .flex-container .top-container {order:1;}
+  .flex-container .picture1 {order:2;}
+  .flex-container .bg-curve{order:3;}
+  .flex-container .middle-container{order:4;}
+  .flex-container .team{order:5;}
+  .flex-container .cta-container{order:6;}
+  .flex-container .footer-container {order:7;}
+
+
 }
