@@ -99,6 +99,15 @@ ul a {
   margin-bottom: -1%;
 }
 
+.wave1 {
+  width:100%;
+}
+
+.wave2 {
+  display:none;
+}
+
+
 #curve-mobile {
   width: 100%;
 }
@@ -223,4 +232,50 @@ ul a {
 
 .contact-icon {
   margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+
+    .wrapper {
+
+    }
+
+
+  .flex-container {
+    display: flex;
+    flex-direction:  row;
+    max-width: 1440px;
+    min-width: 769px;
+    flex-wrap: wrap;
+    margin: auto;
+
+  }
+
+  .flex {
+    width: 100%;
+  }
+
+  .wave1 {
+    display:none;
+  }
+
+  .wave2 {
+    display:block;
+  }
+
+  .picture-container,
+  .top-container,
+  .middle-container {
+    width: 50%;
+    align-self: space-between;
+  }
+  .picture-container {
+    background-image: none;
+    margin-bottom: 0;
+  }
+
+  .team,
+  .middle-container {
+    background-color:#f9f8fe;
+  }
 }
