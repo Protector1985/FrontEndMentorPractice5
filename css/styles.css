@@ -236,6 +236,15 @@ ul a {
 
 @media (min-width: 768px) {
 
+  .flex-container .main-header {order:0;}
+  .flex-container .top-container {order:1;}
+  .flex-container .picture1 {order:2;}
+  .flex-container .bg-curve{order:3;}
+  .flex-container .middle-container{order:4;}
+  .flex-container .team{order:5;}
+  .flex-container .cta-container{order:6;}
+  .flex-container .footer-container {order:7;}
+
   h2,h3,p {
     text-align: left;
   }
@@ -297,14 +306,26 @@ ul a {
     content: url("../images/bg-curve-desktop.svg");
   }
 
+  .team{
+    padding-top: 100px;
+  }
+
+  .picture-container .picture2 {
+    width: 90%;
+  }
 
   .team,
   .middle-container {
     background-color:#f9f8fe;
   }
 
+  .middle-container {
+    padding-bottom: 4%;
+  }
+
   #email {
     margin-left: 4%;
+
   }
   .btn{
     display: block;
@@ -321,14 +342,45 @@ ul a {
     width: 40%;
     height: 30%
   }
-  .flex-container .main-header {order:0;}
-  .flex-container .top-container {order:1;}
-  .flex-container .picture1 {order:2;}
-  .flex-container .bg-curve{order:3;}
-  .flex-container .middle-container{order:4;}
-  .flex-container .team{order:5;}
-  .flex-container .cta-container{order:6;}
-  .flex-container .footer-container {order:7;}
 
+
+  .cta-container {
+    display:flex;
+    position: relative;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+  }
+
+  .cta-container h2, p, .signup {
+    flex-grow: 1;
+
+}
+  .cta-container h2 {
+    max-width: 100%;
+    width:100%;
+    padding-top:3%;
+  }
+
+  .cta-container p {
+    max-width:30%;
+    margin-bottom: 5%;
+  }
+
+  .signup2 {
+    position: absolute;
+    left:60%;
+    top:6%;
+  }
+
+  .signup2 .btn {
+    padding: 15px 35px;
+    font-size: 0.9em;
+
+  }
+
+  .signup2 #email {
+    width: 400px;
+  }
 
 }
